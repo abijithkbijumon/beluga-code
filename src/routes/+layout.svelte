@@ -14,12 +14,8 @@
   });
 </script>
 
-<nav style="padding: 1rem; background: #f0f0f0;">
-  <a href="/tab1" style="margin-right: 1rem;">Tab 1</a>
-  <a href="/tab2">Tab 2</a>
-</nav>
 
-<main style="padding: 1rem;">
+<main>
   <slot /> <!-- 👈 This is where +page.svelte content appears -->
 </main>
 
